@@ -1,0 +1,85 @@
+.stockpulse-subscription-form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.stockpulse-subscription-form h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.stockpulse-subscription-form p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.stockpulse-form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.stockpulse-email-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.stockpulse-email-input:focus {
+    outline: none;
+    border-color: #2271b1;
+}
+
+.stockpulse-submit-btn {
+    padding: 10px 20px;
+    background-color: #2271b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.stockpulse-submit-btn:hover {
+    background-color: #135e96;
+}
+
+.stockpulse-submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.stockpulse-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.stockpulse-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.stockpulse-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 600px) {
+    .stockpulse-form-group {
+        flex-direction: column;
+    }
+    
+    .stockpulse-submit-btn {
+        width: 100%;
+    }
+}
