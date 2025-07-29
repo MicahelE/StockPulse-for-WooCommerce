@@ -1,0 +1,1 @@
+# StockPulse-for-WooCommerce
